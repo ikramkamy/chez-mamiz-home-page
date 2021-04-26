@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navbar
+{
+    display: flex;
+}
+.all-page
+{
+    background-image: url("./images/site\ one\ page-07.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*
+    background-image: url("./images/dégradé-08.svg");
+    background-position: right 250% top 146%
+    */
+    
+}
+.content-page
+{
+    display: flex;
+    justify-content: space-between;
+}
+.label
+{
+    height: 70vh;
+    width: 25%;
+    background-image: url("./images/site\ one\ page-09.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90%;
+   
+
+
+}
+.tarte
+{
+    height: 70vh;
+    width: 47%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between
+}
+.contain-rotate
+{
+
+width: 100%;
+height: 71%;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+transform-origin: 0% 0%;
+animation-name: rot;
+animation-iteration-count: infinite;
+border: 1px solid black;
+
+}
+.image-rotate
+{
+    width: 20vw;
+    animation-duration: 3s;
+  
+   
+
+}
+@keyframes rot {
+    from {
+      transform: rotate(0deg);
+     
+    }
+  
+    to {
+        transform: rotate(360deg);
+       
+        }
+  }
+.title
+{
+    font-size: 8vw;
+    width: fit-content;
+}
+.text-one
+{
+    text-align: center;
+    width: 100%;
+}
+.text-one p
+{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+.icon-nav-size
+{
+    width: 3vw;
+}
+.icon-nav
+{
+    cursor: pointer;
+}
+.logo-chez-mamiz
+{
+    width: 70%;
+    height: 100%;
+}
+.navbar
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.page-contain
+{
+    height: 95%;
+    width: 95%;
+    
+}
+.icons
+{
+    display: flex;
+    height: 20%;
+   
+    margin-left: 10%;
+}
+.icon-mamiz
+{
+    width: 6vw;
+}
+.carousel-inner {
+    
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    
+}
+.image-mamiz
+{
+    width: 10vw;
+}
+.carousel-item
+{
+    display: flex;
+}
+.carousel-item.active
+{
+    display: flex;
+}
+.circle
+{
+    position: absolute;
+    bottom: 34%;
+    right: 41%;
+    height: 50%;
+    width: 50%;
+    transform: rotate(180deg);
+}
+.products
+{
+
+    height: 50%;
+    width: 50%;
+    position: relative;
+
+}
+.size-circle
+{
+    width: 79vw;
+}
+
